@@ -24,9 +24,8 @@ body {
 }
  .container1 {
                 width: 800px;
-                background-color: black;
                 font-family: sans-serif;
-                background-position: right top;
+                
             }
  .header {
         width:1250px;
