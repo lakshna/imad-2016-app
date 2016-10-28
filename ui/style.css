@@ -32,8 +32,9 @@ body {
                 padding-right:20px;
             }
  .header {
-        max-width:800px;
-        background-color: lightblue;
+        max-width:1600px;
+        max-height:400px;
+        background-color: blue;
         
         
  }
