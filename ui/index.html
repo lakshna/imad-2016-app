@@ -2,16 +2,58 @@
 <html>
     <head>
         <link href="/ui/style.css" rel="stylesheet" />
+         <meta name="viewport" content="width=device-width,initial-scale=1" />
+         <style>
+         .container3 {
+             padding-left: 20px;
+             padding-right: 20px;
+             padding-top: 60px;
+         }
+         </style>
     </head>
     <body>
+        <div class="container">
+        <a href="/article-one">Article one</a> <br/>
+        <br/>
+        <a href="/article-two">Article two</a> <br/>
+        <br/>
+        <a href="/article-three">Article three</a> <br/>
         <div class="center">
-            <img src="/ui/madi.png" class="img-medium"/>
+
+            <img id='friends' src="https://i.kinja-img.com/gawker-media/image/upload/kx6jiylirhu8a4swvmmi.jpg" class="img-medium"/>
+
         </div>
-        <br>
-        <div class="center text-big bold">
-            Hi! I am your webapp.
+
+        <h3>Personal</h3>
+        <div>
+            Hi, my name is Amitesh
         </div>
+        <hr/>
+        <h3>Professional</h3>
+        <div>
+            I study in VIT
+        </div>
+        <hr/>
+            <div class="footer">
+                This button <button id="counter">Click me!</button>has been clicked <span id="count">0</span>times.
+                <br/>
+                <hr/>
+                     <h3>
+                    Enter your comments here!
+                    </h3>
+                <input type="text" id="name" placeholder="Comments.."></input>
+                <input type="submit" value="Submit" id="submit_btn"></input>
+                <ul id="namelist">
+                </ul>
+                </div>
+                <div>
+
+                </div>
+
+        </div>
+
         <script type="text/javascript" src="/ui/main.js">
         </script>
+
     </body>
 </html>
