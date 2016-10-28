@@ -33,8 +33,7 @@ body {
             }
  .header {
         width:1600px;
-        height:400px;
+        height:200px;
         background-color: blue;
-        
-        
+        padding-top: 5px;
  }
