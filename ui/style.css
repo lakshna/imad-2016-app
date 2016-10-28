@@ -30,7 +30,7 @@ body {
                 padding-top:20px;
                 padding-left:20px;
                 padding-right:20px;
-                background-image:url(Untitled.png);
+                background-image:url("Untitled.png");
             }
  .header {
         width:1250px;
