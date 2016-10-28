@@ -1,11 +1,14 @@
 body {
     font-family: sans-serif;
-    background-color: lightgrey;
+    background-color: lightgreen;
     margin-top: 75px;
 }
 
 .center {
     text-align: center;
+    padding-top:20px;
+
+
 }
 
 .text-big {
@@ -19,4 +22,12 @@ body {
 .img-medium {
     height: 200px;
 }
-
+ .container {
+                max-width: 800px;
+                margin:0 auto;
+                color: green;
+                font-family: sans-serif;
+                padding-top:20px;
+                padding-left:20px;
+                padding-right:20px;
+            }
